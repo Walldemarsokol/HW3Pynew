@@ -1,7 +1,7 @@
 # Дан список повторяющихся элементов.
 # Вернуть список с дублирующимися элементами.
 # В результирующем списке не должно быть дубликатов.
-my_list = [1, 3, 3, 5, 1, 6 ,9, 9, 9]
+some_list = [1, 2, 2, 3, 1, 6 ,9, 9, 8]
 def double_list(array: list[int]):
     res = set()
     for el in array:
@@ -11,4 +11,4 @@ def double_list(array: list[int]):
     return list(res)
 
 
-print(double_list(my_list))
+print(double_list(some_list))
